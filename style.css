@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.content h2 {
+  color: #0072ff;
+}
+
+.content h3 {
+  margin-top: 1.5rem;
+  color: #008cba;
+}
+
+ul {
+  list-style-type: '✅ ';
+  padding-left: 1.5rem;
+}
+
+.img-small {
+  width: 100px;
+  display: block;
+  margin: 1rem 0;
+}
+
+.conclusion {
+  background-color: #e0f7fa;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-top: 4px solid #00acc1;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0072ff;
+  color: white;
+  margin-top: 2rem;
+}
